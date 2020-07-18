@@ -1,0 +1,39 @@
+/* Start Features Area css
+============================================================================================ */
+.features_area .main_title .primary_btn {
+  margin-top: 30px !important;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-bottom: 30px;
+}
+
+.single_feature {
+  padding: 30px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.single_feature:last-child {
+  border-bottom: 0;
+}
+.single_feature .feature_head {
+  position: relative;
+  margin-bottom: 15px;
+}
+.single_feature .feature_head span.lnr {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 30px;
+  color: #222222;
+}
+.single_feature .feature_head h4 {
+  font-size: 20px;
+  color: #222222;
+  display: inline-block;
+  padding-left: 60px;
+}
+.single_feature .feature_content p {
+  margin: 0;
+}
+
+/* End Features Area css
+  ============================================================================================ */

@@ -1,0 +1,194 @@
+/* Recent Update Area css
+============================================================================================ */
+.recent_update_area {
+  background-image: url(../../images/tab-bg.jpg);
+  background-size: cover;
+  padding: 290px 0;
+}
+.recent_update_area.made_white {
+  background: #fff;
+}
+
+.recent_update_inner .nav.nav-tabs {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 1px solid #eda2f0;
+  padding-bottom: 1px;
+}
+.recent_update_inner .nav.nav-tabs li {
+  flex: 0 0 25%;
+  max-width: 195px;
+  padding: 0px 15px;
+}
+.recent_update_inner .nav.nav-tabs li a {
+  border: none;
+  padding: 25px 0px;
+  background: #fff;
+  text-align: center;
+  line-height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+}
+.recent_update_inner .nav.nav-tabs li a span.lnr {
+  font-size: 30px;
+  font-weight: 600;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.recent_update_inner .nav.nav-tabs li a.active,
+.recent_update_inner .nav.nav-tabs li a:hover {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.recent_update_inner .nav.nav-tabs li a.active span.lnr,
+.recent_update_inner .nav.nav-tabs li a:hover span.lnr {
+  background: -webkit-linear-gradient(90deg, #fff, #fff);
+  background: -moz-linear-gradient(90deg, #fff, #fff);
+  background: -o-linear-gradient(90deg, #fff, #fff);
+  background: linear-gradient(90deg, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.recent_update_inner .nav.nav-tabs li h6 {
+  letter-spacing: 1px;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+.recent_update_inner .tab-content .tab-pane {
+  border: none;
+  padding-top: 80px;
+}
+
+.recent_update_text .col-lg-5 {
+  vertical-align: middle;
+  align-self: center;
+}
+.recent_update_text h3 {
+  color: #222222;
+  line-height: 45px;
+  font-size: 36px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.recent_update_text h6 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.recent_update_text p {
+  margin-bottom: 0px;
+}
+.recent_update_text .primary_btn {
+  margin-top: 35px;
+}
+
+.common_style .line {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.common_style .line:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 50px;
+  content: "";
+}
+.common_style h3 {
+  font-size: 36px;
+  color: #222222;
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 20px;
+}
+.common_style p {
+  margin: 0;
+}
+.common_style .primary_btn {
+  margin-top: 35px;
+}
+
+/* Recent Update Area css
+  ============================================================================================ */
+
+/* Recent Update Area css
+  ============================================================================================ */
+.recent_update_area {
+  padding: 80px 0;
+  background-image: none;
+  background-color: #fcf8ff;
+}
+
+.recent_update_inner li a {
+  min-width: 110px;
+}
+.recent_update_inner .recent_update_text .chart_img img {
+  margin-top: 50px;
+}
+
+/* Recent Update Area css
+  ============================================================================================ */
+.recent_update_inner li a {
+  min-width: 110px;
+}
+.recent_update_inner .recent_update_text .chart_img img {
+  margin-top: 50px;
+}
+
+/*Recent Update Area css
+  ============================================================================================ */
+.recent_update_inner li h6 {
+  font-size: 12px;
+}
+
+@media (max-width: 420px) {
+  /* Recent Update Area css
+        ============================================================================================ */
+  .recent_update_inner li:last-child {
+    margin-top: 20px;
+  }
+}
+
+.gradient-bg,
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link,
+.blog_right_sidebar .widget_title,
+.blog_right_sidebar .newsletter_widget .bbtns,
+.blog_right_sidebar .tag_cloud_widget ul li a:hover,
+.blog-pagination .page-item.active .page-link,
+.blog-pagination .page-link:hover,
+.comments-area .btn-reply:hover,
+.recent_update_inner .nav.nav-tabs li a.active,
+.recent_update_inner .nav.nav-tabs li a:hover,
+.common_style .line:after,
+.price_item:hover .price_head,
+.price_item:hover .price_footer,
+.testimonial_area .active_testimonial .owl-dots,
+.news_widget .input-group .sub-btn {
+  background: -webkit-linear-gradient(90deg, #5287fa 0%, #7fa3f0 100%);
+  background: -moz-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+  background: -o-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+  background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
+
+
+.gradient-color, .contact_info .info_item i, .recent_update_inner .nav.nav-tabs li a span.lnr {
+  background: -webkit-linear-gradient(90deg, #5287fa 0%, #7fa3f0 100%);
+  background: -moz-linear-gradient(90deg, #5287fa 0%, #7fa3f0 100%);
+  background: -o-linear-gradient(90deg, #5287fa 0%, #7fa3f0 100%);
+  background: linear-gradient(90deg, #5287fa 0%, #7fa3f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }

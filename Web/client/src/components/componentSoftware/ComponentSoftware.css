@@ -1,0 +1,50 @@
+
+.SingleItem {
+    padding: 10px;
+    margin: 5px;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    /* background-color: green; */
+}
+
+.WholeList {
+    height: 520px;
+    overflow-y: scroll;
+    border-bottom: 3px;
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom-color: black;
+    border-style: solid;
+    margin: 5px;
+}
+
+.primary_btn {
+    margin: 5px;
+}
+
+.AddButton {
+   width: 100px;
+   
+}
+
+.MidContainer{
+    /* flex: 1; */
+    flex-direction: row;
+    
+}
+
+.BottomContainer {
+    display:flex;
+  justify-content:space-between;
+}
+
+
+.Player {
+    text-align: right;
+}
+
+.SingleInput {
+    width: 100%;
+}

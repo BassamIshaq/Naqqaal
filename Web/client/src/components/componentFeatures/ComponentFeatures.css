@@ -1,0 +1,35 @@
+/* Start Big Features Area css
+============================================================================================ */
+.big_features .common_style p {
+    padding-right: 20px; }
+  
+  .features_content {
+    position: relative; }
+    .features_content .border-line {
+      position: absolute;
+      left: 50%;
+      height: 100%;
+      border: 1px dashed #dbdade; }
+    .features_content .shape1 {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      margin-left: -8px; }
+    .features_content .shape2 {
+      position: absolute;
+      left: 48%;
+      top: 47%;
+      margin-left: -15px; }
+    .features_content .shape3 {
+      position: absolute;
+      left: 50%;
+      top: 62%;
+      margin-left: -9px; }
+  
+  .bottom-features {
+    margin-top: 120px; }
+    .bottom-features .shape3 {
+      top: 64%; }
+  
+  /* End Big Features Area css
+  ============================================================================================ */
