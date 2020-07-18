@@ -1,0 +1,16 @@
+.MyOutline {
+    /* border:  5px border solid; */
+    /* border-radius: 5px; */
+    /* background-image: linear-gradient(#8252fa, #eca2f1) 1 100%; */
+    /* max-width: 250px; */
+    padding: 1rem;
+    /* color: white; */
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      radial-gradient(
+
+        #8252fa, 
+        #eca2f1
+      ) 1 / 1; 
+}
