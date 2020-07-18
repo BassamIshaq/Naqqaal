@@ -1,0 +1,62 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bumaga/tabs": "^0.2.0",
+    "@ckeditor/ckeditor5-build-classic": "^17.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@editorjs/editorjs": "^2.17.0",
+    "@gem-mine/rmc-list-view": "^1.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@tinymce/tinymce-react": "^3.5.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "downloadjs": "^1.4.7",
+    "draft-js": "^0.11.5",
+    "keyboard-key": "^1.1.0",
+    "linearicons": "^1.0.2",
+    "node-sass": "^4.14.1",
+    "rc-slider": "^9.3.1",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-beforeunload": "^2.2.2",
+    "react-bootstrap": "^1.2.2",
+    "react-custom-list-view": "^1.0.8",
+    "react-dom": "^16.13.1",
+    "react-keydown": "^1.9.12",
+    "react-list-view": "^1.0.0",
+    "react-media-player": "^0.7.9",
+    "react-player": "^1.15.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-simple-keyboard": "^2.2.62",
+    "react-sortable-hoc": "^1.11.0",
+    "react-test-renderer": "^16.13.1",
+    "react-virtual-keyboard": "^1.0.2",
+    "reactstrap": "^8.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
